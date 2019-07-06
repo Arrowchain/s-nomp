@@ -8,13 +8,8 @@
     "zAddress": "",
     "_comment_zAddress": "a private address used to send coins to miner.",
 
-    "tAddress": "",
-    "_comment_tAddress": "this isn't actually used, but the code that checks this hasn't been removed yet.",
-
     "invalidAddress": "",
-    "_comment_invalidAddress": "Invalid addresses will be converted to the above (this should be a shielded addr)",
-
-    "walletInterval": 1,
+    "_comment_invalidAddress": "Invalid addresses will be converted to the above (this should be a shielded addr) do not leave blank",
 
     "rewardRecipients": {
         "": 0.0
@@ -22,11 +17,13 @@
 
     "paymentProcessing": {
         "enabled": true,
-        "minConf": 5,
+        "minConf": 10,
+        "zMinConf": 3,
         "paymentMode": "prop",
         "_comment_paymentMode": "prop, pplnt",
-        "paymentInterval": 20,
-        "minimumPayment": 0.05,
+        "shieldingInterval": 180,
+        "paymentInterval": 300,
+        "minimumPayment": 5,
         "maxBlocksPerPayment": 10,
         "daemon": {
             "host": "localhost",
