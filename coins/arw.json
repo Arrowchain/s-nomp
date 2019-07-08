@@ -12,20 +12,24 @@
     "payFoundersReward": true,
     "roundRobin": true,
     "percentFoundersReward": 4.8,
-    "maxFoundersRewardBlockHeight": 849999,
+    "maxFoundersRewardBlockHeight": 5606399,
     "foundersRewardAddressChangeInterval": 1,
     "vFoundersRewardAddress": [
-      "awRcUwndjDSKavHrVsBAiQzHyeCXMhGuLUN",
-      "awDDfNed9So9PRFkjjZoKQKAAKPrYRWjnZM",
-      "awHxrq18TnMpDW6e7nSsPWTuYNcAk6crSrN",
-      "awH8dSB2UT5v2EXmQ8HHemGihVYkfA6as4y"
+      "awGmPHrdDEoR94moWqgkCgoftqVnxmSU8TW",
+      "awKh816Uu7SknBiRUqpEhAmzLgCfRMwToob",
+      "awHTq3WV9jwa7GnwFUex29Do2dxNEkpHrR4",
+      "aw9y6sA7TfnLfBcE7QdJED5jL4BRL7xnPi6",
+      "aw3PJCcQPHKzYbVpVSc4ka4MnRqdDbmvvbL",
+      "awLTtMyrwZXXZ592xJtmtDegCe56zxhMDAv",
+      "aw8Rtid3iKpCxyXCJ9ugGGVpuuSr18qpR6d",
+      "awDitPs5DiuGQo4Nzsws5Hk7ugX6YjQ52km"
     ],
     "txfee": 0.0001,
     "peerMagic": "27a2261c",
     "explorer": {
-        "txURL": "https://insight.zerocurrency.io/insight/tx/",
-        "blockURL": "https://insight.zerocurrency.io/insight/block/",
-        "_comment_explorer": "This is the coin's explorer full base url for transaction and blocks i.e. (https://zeroexplorer.forgetop.com/tx/). The pool will automatically add the transaction id or block id at the end."
+        "txURL": "",
+        "blockURL": "",
+        "_comment_explorer": ""
     },
     "network": {
       "messagePrefix": "\u0018ZCash Signed Message:\n",
@@ -34,8 +38,8 @@
         "public": 76067358,
         "private": 76066276
       },
-      "pubKeyHash": 7352,
-      "scriptHash": 7357,
+      "pubKeyHash": 4879,
+      "scriptHash": 4891,
       "wif": 128,
       "consensusBranchId": {
         "1": 0

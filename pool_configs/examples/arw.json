@@ -8,32 +8,29 @@
     "zAddress": "",
     "_comment_zAddress": "a private address used to send coins to miner.",
 
-    "tAddress": "",
-    "_comment_tAddress": "this isn't actually used, but the code that checks this hasn't been removed yet.",
-
     "invalidAddress": "",
     "_comment_invalidAddress": "Invalid addresses will be converted to the above (this should be a shielded addr)",
-
-    "shieldingInterval": 3,
 
     "rewardRecipients": {
         "": 0.0
     },
 
     "paymentProcessing": {
-        "enabled": true,
-        "minConf": 5,
-        "paymentMode": "prop",
-        "_comment_paymentMode": "prop, pplnt",
-        "paymentInterval": 20,
-        "minimumPayment": 0.05,
-        "maxBlocksPerPayment": 10,
-        "daemon": {
-            "host": "localhost",
-            "port": 6543,
-            "user": "User234523452345",
-            "password": "Pass8241389489348973487934ds08"
-        }
+      "enabled": true,
+      "minConf": 10,
+      "zMinConf": 3,
+      "paymentMode": "prop",
+      "_comment_paymentMode": "prop, pplnt",
+      "shieldingInterval": 180,
+      "paymentInterval": 300,
+      "minimumPayment": 5,
+      "maxBlocksPerPayment": 10,
+      "daemon": {
+          "host": "localhost",
+          "port": 6543,
+          "user": "User234523452345",
+          "password": "Pass8241389489348973487934ds08"
+      }
     },
 
     "tlsOptions": {

@@ -12,7 +12,7 @@
     "payFoundersReward": true,
     "roundRobin": true,
     "percentFoundersReward": 4.8,
-    "maxFoundersRewardBlockHeight": 849999,
+    "maxFoundersRewardBlockHeight": 5606399,
     "foundersRewardAddressChangeInterval": 1,
     "vFoundersRewardAddress": [
       "t2EwvMEauft1w621d7cwEUZyhR2Qg6hC69j",
