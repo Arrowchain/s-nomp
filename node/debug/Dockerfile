@@ -38,7 +38,7 @@ ARG ARROW_VERSION=1.0.2
 
 RUN mkdir -p /arrow-bins
 WORKDIR /arrow-bins
-RUN wget -qO- https://github.com/Arrowchain/arrow/releases/download/${ARROW_VERSION}/arrow-v${ARROW_VERSION}-bionic-debug.tar.gz | tar xvz -C /arrow-bins
+RUN wget -qO- https://github.com/Arrowchain/arrow/releases/download/${ARROW_VERSION}/arrow-v${ARROW_VERSION}-ubuntu-bionic-debug.tar.gz | tar xvz -C /arrow-bins
 RUN chmod +x /arrow-bins/arrowd
 RUN chmod +x /arrow-bins/arrow-cli
 RUN ln -sf /arrow-bins/arrowd /usr/bin/arrowd
