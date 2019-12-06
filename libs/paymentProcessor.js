@@ -96,7 +96,7 @@ function SetupForPool(logger, poolOptions, setupFinished){
 
     var magnitude = 10**8;
     var minPaymentSatoshis =parseInt(processingConfig.minimumPayment * magnitude);
-    var coinPrecision;
+    var coinPrecision = 8;
 
     var paymentInterval;
 
